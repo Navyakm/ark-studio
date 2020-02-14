@@ -1,1 +1,16 @@
 <!-- In this file you are going to write the CSS code -->
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_list{
+    list-style-type: none;
+}
+.nav_list a{
+    display : inline-flexbox;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding : 12px;
+    color: black;
+    text-decoration: none;
+    float: right;
+    flex-flow: row;
+}
